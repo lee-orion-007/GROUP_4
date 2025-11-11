@@ -1,0 +1,23 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+
+# model and data (do not commit huge binary by accident)
+*.h5
+*.hdf5
+/data/
+/models/
+
+# Node
+node_modules/
+.expo/
+.expo-shared/
+
+# Editor
+.vscode/
+.DS_Store
